@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "containers",
+        "1": "ecommerce",
+        "2": "media"
+    },
+    "data_tracked": false,
+    "demo_page": "https://plugins-by-eny.bubbleapps.io/version-test/testimonial-slider",
+    "description": "A beautiful, infinite-scrolling testimonial slider with smooth animations and full customization.\n\nFeatures\n\n🎯 Infinite scrolling - Seamlessly loops testimonials for continuous display without visible end.\n\n📼 Bidirectional scroll - Choose left or right scrolling direction.\n\n🎨 Full color control - Customize background, name, title, and review text colors.\n\n📏 Adjustable dimensions - Set custom card height and border roundness.\n\n⏸️ Hover to pause - Smooth pause on hover with automatic resume.\n\n⚡ Responsive design - Adapts beautifully to any screen size.\n\n📝 JSON input - Easy data management with JSON format for testimonials.\n\n\nPreview:\nhttps://plugins-by-eny.bubbleapps.io/version-test/testimonial-slider\n\nEditor:\nhttps://bubble.io/page?id=plugins-by-eny&test_plugin=1761592500720x592988324571906000_current&tab=Design&name=testimonial-slider&type=page&subtab=BubbleVersion&elements=bTIzz\n\nService: https://buildlaunch.dev",
+    "image": "//meta-q.cdn.bubble.io/f1761592760879x932664463631058200/ChatGPT%20Image%20Oct%2027%2C%202025%2C%2008_18_56%20PM.png",
+    "license": "open_source",
+    "link": "https://buildlaunch.dev",
+    "name": "Testimonial Section Slider",
+    "plugin_instructions": "A beautiful, infinite-scrolling testimonial slider with smooth animations and full customization.\n\nFeatures\n\n🎯 Infinite scrolling - Seamlessly loops testimonials for continuous display without visible end.\n\n📼 Bidirectional scroll - Choose left or right scrolling direction.\n\n🎨 Full color control - Customize background, name, title, and review text colors.\n\n📏 Adjustable dimensions - Set custom card height and border roundness.\n\n⏸️ Hover to pause - Smooth pause on hover with automatic resume.\n\n⚡ Responsive design - Adapts beautifully to any screen size.\n\n📝 JSON input - Easy data management with JSON format for testimonials.\n\n\nPreview:\nhttps://plugins-by-eny.bubbleapps.io/version-test/testimonial-slider\n\nEditor:\nhttps://bubble.io/page?id=plugins-by-eny&test_plugin=1761592500720x592988324571906000_current&tab=Design&name=testimonial-slider&type=page&subtab=BubbleVersion&elements=bTIzz\n\nService: https://buildlaunch.dev"
+}

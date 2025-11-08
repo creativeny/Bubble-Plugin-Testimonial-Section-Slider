@@ -1,0 +1,130 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Satoshi:wght@300;400;500;600;700;800;900&display=swap');
+
+.testimonial-slider-container-INSTANCE_ID {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  font-family: 'Satoshi', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  color: inherit;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+.testimonial-slider-wrapper-INSTANCE_ID {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.testimonial-slider-track-INSTANCE_ID {
+  display: flex;
+  gap: 16px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  will-change: transform;
+  transition: animation-play-state 0.3s ease;
+}
+
+.testimonial-card-INSTANCE_ID {
+  width: 320px;
+  min-width: 320px;
+  height: CARD_HEIGHTpx;
+  background: BACKGROUND_COLOR;
+  border-radius: ROUNDNESSpx;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.testimonial-header-INSTANCE_ID {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.testimonial-avatar-INSTANCE_ID {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.testimonial-header-content-INSTANCE_ID {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+  overflow: hidden;
+  min-width: 0;
+}
+
+.testimonial-name-INSTANCE_ID {
+  font-size: 16px;
+  font-weight: 600;
+  color: COLOR_NAME;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.testimonial-title-INSTANCE_ID {
+  font-size: 14px;
+  color: COLOR_TITLE;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.testimonial-review-INSTANCE_ID {
+  font-size: 14px;
+  color: COLOR_REVIEW;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  box-sizing: border-box;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: unset;
+  word-break: break-word;
+}
+
+@keyframes scroll-INSTANCE_ID {
+  0% {
+    transform: translateX(0) translateY(-50%);
+  }
+  100% {
+    transform: translateX(calc(-336px * TESTIMONIALS_LENGTH)) translateY(-50%);
+  }
+}
+
+@keyframes scroll-INSTANCE_ID-reverse {
+  0% {
+    transform: translateX(calc(-336px * TESTIMONIALS_LENGTH)) translateY(-50%);
+  }
+  100% {
+    transform: translateX(0) translateY(-50%);
+  }
+}
+
+.testimonial-slider-track-INSTANCE_ID.animating {
+  animation: ANIMATION_NAME SCROLL_SPEEDs linear infinite;
+}
+
+.testimonial-slider-track-INSTANCE_ID.paused {
+  animation-play-state: paused;
+}
+</style>

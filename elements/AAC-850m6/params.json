@@ -1,0 +1,101 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Testimonial Slider",
+    "fields": {
+        "AAD": {
+            "caption": "JSON Data",
+            "default_val": "[]",
+            "doc": "Refer to demo editor for a input sample",
+            "editor": "DynamicValue",
+            "name": "testimonials_json",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "Scroll Speed",
+            "default_val": 5,
+            "doc": "Speed values spans 1-10. 1 being the slowest, 10 fastest",
+            "editor": "DynamicValue",
+            "name": "scroll_speed",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAF": {
+            "caption": "Scroll Direction",
+            "default_val": "Left",
+            "editor": "Dropdown",
+            "name": "scroll_direction",
+            "options": "Left,Right",
+            "rank": 3
+        },
+        "AAG": {
+            "caption": "Background",
+            "default_val": "rgba(26,26,26,1)",
+            "editor": "Color",
+            "name": "background_color",
+            "rank": 7
+        },
+        "AAH": {
+            "caption": "Name",
+            "default_val": "rgba(255,255,255,1)",
+            "editor": "Color",
+            "name": "color_name",
+            "rank": 8
+        },
+        "AAI": {
+            "caption": "Title",
+            "default_val": "rgba(153,153,153,1)",
+            "editor": "Color",
+            "name": "color_title",
+            "rank": 9
+        },
+        "AAJ": {
+            "caption": "Review",
+            "default_val": "rgba(204,204,204,1)",
+            "editor": "Color",
+            "name": "color_review",
+            "rank": 10
+        },
+        "AAK": {
+            "caption": "roundness",
+            "default_val": 8,
+            "editor": "DynamicValue",
+            "name": "roundness",
+            "rank": 4,
+            "value": "number"
+        },
+        "AAL": {
+            "caption": "Stop On Hover",
+            "default_val": true,
+            "doc": "Stops scroll on cursor hover or touch on mobile",
+            "editor": "Checkbox",
+            "name": "stop_on_hover",
+            "rank": 5
+        },
+        "AAM": {
+            "caption": "Color 🎨",
+            "editor": "Label",
+            "name": "info",
+            "rank": 6
+        },
+        "AAN": {
+            "caption": "Card Height",
+            "default_val": 200,
+            "editor": "DynamicValue",
+            "name": "card_height",
+            "rank": 1,
+            "value": "number"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "platform_type": "web",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    }
+}
